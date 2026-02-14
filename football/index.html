@@ -3,13 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Sports: Football</title>
+  <title>AI Sports: Football - Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Outfit', -apple-system, sans-serif;
+      background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+      min-height: 100vh;
+      color: #e2e8f0;
+      padding: 2rem 1.5rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    .logo {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #38bdf8 0%, #22d3ee 50%, #2dd4bf 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 0.25rem;
+    }
+    .tagline {
+      font-size: 0.95rem;
+      color: #94a3b8;
+      font-weight: 400;
+    }
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid rgba(71, 85, 105, 0.5);
+      border-radius: 16px;
+      padding: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #38bdf8;
+      margin-bottom: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .card h2::before {
+      content: '';
+      width: 4px;
+      height: 1rem;
+      background: linear-gradient(180deg, #38bdf8, #2dd4bf);
+      border-radius: 2px;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+    .card a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 0.5rem;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 24px rgba(14, 165, 233, 0.35);
+    }
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+  </style>
 </head>
 <body>
-  <h1>AI Sports: Football</h1>
-  <p>Match schedules and AI-powered analysis for top leagues and cups.</p>
-  <h2>Contact &amp; Support</h2>
-  <p>Email: <a href="mailto:aisportssoccer@gmail.com">aisportssoccer@gmail.com</a></p>
-  <p>For questions, privacy requests or technical support, please contact us at the address above.</p>
+  <div class="container">
+    <header>
+      <h1 class="logo">AI Sports: Football</h1>
+      <p class="tagline">Match schedules & AI-powered analysis</p>
+    </header>
+
+    <section class="card">
+      <h2>About</h2>
+      <p>AI Sports: Football brings you fixtures, results and AI analysis for top leagues and cups. Follow Premier League, LaLiga, Serie A, Bundesliga, Champions League and more. Free leagues included; upgrade to VIP for full access.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact &amp; Support</h2>
+      <p>For questions, privacy requests or technical support, get in touch:</p>
+      <a href="mailto:aisportssoccer@gmail.com" class="btn">aisportssoccer@gmail.com</a>
+    </section>
+
+    <footer>
+      <p>© AI Sports: Football · Support</p>
+    </footer>
+  </div>
 </body>
 </html>
