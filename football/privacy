@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - AI Sports: Football</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Outfit', -apple-system, sans-serif;
+      background: linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+      min-height: 100vh;
+      color: #e2e8f0;
+      padding: 2rem 1.5rem;
+      line-height: 1.7;
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 2rem; }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #38bdf8, #2dd4bf);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    h1 { font-size: 1.25rem; color: #94a3b8; font-weight: 400; margin-top: 0.25rem; }
+    .card {
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid rgba(71, 85, 105, 0.5);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .card h2 { font-size: 1rem; color: #38bdf8; margin-bottom: 0.5rem; }
+    .card p { font-size: 0.95rem; color: #cbd5e1; }
+    .card ul { margin: 0.5rem 0 0 1.25rem; color: #cbd5e1; font-size: 0.95rem; }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #64748b; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="logo">AI Sports: Football</p>
+      <h1>Privacy Policy</h1>
+    </header>
+
+    <div class="card">
+      <h2>1. Overview</h2>
+      <p>AI Sports: Football provides match schedules and AI-powered analysis. You can use the app without creating an account. This policy applies to both Android and iOS and describes what data we collect and how we use it.</p>
+    </div>
+
+    <div class="card">
+      <h2>2. Information We Collect</h2>
+      <p>We collect only what is needed to run the app, show ads, and improve the service:</p>
+      <ul>
+        <li><strong>Device identifiers:</strong> On iOS we may use the Advertising Identifier (IDFA) only if you accept the tracking prompt. On Android, ad-related identifiers may be used. These support personalized ads and subscriptions.</li>
+        <li><strong>Usage and technical data:</strong> App interactions, device model, OS version, and crash reports.</li>
+        <li><strong>Push notification token:</strong> To send notifications via Firebase. You can disable them in device settings.</li>
+        <li><strong>Data on your device:</strong> Preferences and cached content; we do not receive this except for purchases or support.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Advertising & Tracking</h2>
+      <p>We use Google AdMob. Ads may be personalized when you allow tracking (e.g. after accepting the prompt on iOS). We do not use your device's precise location. AdMob may use your IP for approximate location. You can limit ad personalization in your device settings.</p>
+    </div>
+
+    <div class="card">
+      <h2>4. Third-Party Services</h2>
+      <p>Google AdMob (ads), Google Firebase (crash reporting, push, analytics), and Apple App Store / Google Play (in-app purchases). Each has its own privacy policy.</p>
+    </div>
+
+    <div class="card">
+      <h2>5. Your Rights</h2>
+      <p>We do not sell your personal data. Under GDPR and CCPA you may have the right to access, correct, or delete your data. Contact us to exercise these rights.</p>
+    </div>
+
+    <div class="card">
+      <h2>6. Contact</h2>
+      <p>For privacy questions: <a href="mailto:aisportssoccer@gmail.com">aisportssoccer@gmail.com</a>. Include "Privacy" in the subject.</p>
+    </div>
+
+    <footer>
+      <p>Last updated: 2025 · AI Sports: Football</p>
+    </footer>
+  </div>
+</body>
+</html>
