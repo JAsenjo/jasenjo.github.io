@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AINBA — Support &amp; Info</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a1f26;
+      --surface-hover: #232a33;
+      --text: #e6edf3;
+      --text-muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-soft: rgba(88, 166, 255, 0.12);
+      --border: rgba(48, 54, 61, 0.8);
+      --success: #3fb950;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(145deg, var(--accent-soft) 0%, rgba(88, 166, 255, 0.06) 100%);
+      border: 1px solid rgba(88, 166, 255, 0.2);
+      border-radius: 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+      font-size: 2.5rem;
+    }
+    h1 {
+      font-size: 1.875rem;
+      font-weight: 700;
+      margin: 0 0 0.4rem;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .tagline {
+      color: var(--text-muted);
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin: 0 0 0.6rem;
+      letter-spacing: 0.03em;
+    }
+    .card p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+    .card p + p { margin-top: 0.75rem; }
+    ul.features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.features li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+    ul.features li:last-child { margin-bottom: 0; }
+    ul.features .icon {
+      width: 28px;
+      height: 28px;
+      min-width: 28px;
+      background: var(--accent-soft);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+    }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(88, 166, 255, 0.25);
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-decoration: none;
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .cta:hover {
+      background: rgba(88, 166, 255, 0.18);
+      border-color: rgba(88, 166, 255, 0.4);
+      text-decoration: none;
+      color: var(--accent);
+    }
+    .links {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .links a {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+      text-decoration: none;
+    }
+    .links a:hover { color: var(--accent); }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --surface: #ffffff;
+        --text: #1f2328;
+        --text-muted: #57606a;
+        --accent: #0969da;
+        --accent-soft: rgba(9, 105, 218, 0.1);
+        --border: rgba(31, 35, 40, 0.12);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">🏀</div>
+      <h1>AINBA</h1>
+      <p class="tagline">NBA standings, schedule &amp; AI-powered game analysis</p>
+    </header>
+
+    <div class="card">
+      <h2>About the app</h2>
+      <p><strong>AINBA</strong> is a dedicated NBA app that combines live standings, full schedule, game details, and AI-driven analysis and predictions. We focus on bringing you clear, data-driven insights before each game: estimated odds, spread and total picks, and expert consensus—so you can follow the league with more context.</p>
+      <p>The app is not only a livescore tool: you get box scores, player stats, injuries, news, and AI analysis published before tip-off to help you stay informed and make sense of every matchup.</p>
+    </div>
+
+    <div class="card">
+      <h2>What you get</h2>
+      <ul class="features">
+        <li>
+          <span class="icon">📊</span>
+          <span><strong>Standings &amp; schedule</strong> — Full NBA standings by conference and division. Browse the schedule by day and tap any game for scores and details.</span>
+        </li>
+        <li>
+          <span class="icon">🤖</span>
+          <span><strong>AI analysis &amp; predictions</strong> — Game analysis, sportsbook odds estimated, AI spread and total picks, and expert consensus. Unlock full predictions with Premium or by watching one ad per game.</span>
+        </li>
+        <li>
+          <span class="icon">📋</span>
+          <span><strong>Game detail &amp; box score</strong> — Scores, status, and full box score with player stats (minutes, points, rebounds, assists, and more). Tap a player to open their profile.</span>
+        </li>
+        <li>
+          <span class="icon">🏥</span>
+          <span><strong>Injuries &amp; news</strong> — Up-to-date injury reports and the latest NBA news, with links to full articles.</span>
+        </li>
+        <li>
+          <span class="icon">⭐</span>
+          <span><strong>VIP</strong> — Ad-free experience and full access to AI predictions. Manage your subscription in your device settings (App Store or Google Play).</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Support</h2>
+      <p>For help, feedback, or questions about your account or subscription, get in touch:</p>
+      <a href="mailto:nbaaisports@gmail.com" class="cta">Contact support — nbaaisports@gmail.com</a>
+      <p style="margin-top: 1rem; font-size: 0.875rem;">We aim to reply as soon as possible. For subscription or billing issues, you can also use the “Restore purchases” option in the app or manage your subscription in your device settings.</p>
+    </div>
+
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
